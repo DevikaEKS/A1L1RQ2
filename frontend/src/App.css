@@ -1,29 +1,21 @@
-
-
-
 .technologies-container {
   text-align: center;
   background-color: #f3fbff;
   padding: 40px 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 .tech-heading {
   color:#001040;
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 10px;
 }
-
 .tech-subtext {
   max-width: 700px;
   margin: 0 auto 40px;
   font-size: 15px;
   color: #555;
 }
-
-
-
 .tech-card {
   background-color: #fff;
   padding: 20px;
@@ -31,7 +23,6 @@
   text-align: left;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
   position: relative;
-  
   transition: transform 0.3s;
 }
 
@@ -45,20 +36,17 @@
   color: #001040;
   margin-bottom: 10px;
 }
-
 .tech-desc {
   font-size: 14px;
   color: #666;
   margin-bottom: 15px;
 }
-
 .tech-img {
   width: 60px;
   height: auto;
   display: block;
   margin: 0 auto;
 }
-
 .tech-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Always 2 cards per row */
@@ -67,12 +55,4 @@
 }
 .techpart{
   margin:0px 100px;
-}
-@media (max-width: 568px) {
-  .tech-grid {
-    grid-template-columns: 1fr; /* 1 card per row on smaller screens */
-  }
-  .techpart{
-    margin:0px 10px;
-  }
 }
