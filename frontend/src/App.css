@@ -12,9 +12,10 @@
 }
 .tech-subtext {
   max-width: 700px;
-  margin: 0 auto 40px;
-  font-size: 15px;
+  text-align: center;
+  font-size: 18px;
   color: #555;
+  margin: 0px auto 40px;
 }
 .tech-card {
   background-color: #fff;
@@ -43,16 +44,30 @@
 }
 .tech-img {
   width: 60px;
-  height: auto;
+  height: 60px;
   display: block;
   margin: 0 auto;
 }
 .tech-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Always 2 cards per row */
+  grid-template-columns: repeat(2, 1fr); 
   gap: 70px;
   justify-content: center;
 }
 .techpart{
   margin:0px 100px;
+}
+.endbox{
+  display: flex;
+  justify-content: end;
+  padding: 20px;
+}
+label{
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+
+  border:2px solid darkblue;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #fff;
+
 }

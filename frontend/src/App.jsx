@@ -27,7 +27,7 @@ const techData = [
     borderColor: "#ff9800",
   }
 ];
-
+const username="Dev";
 function App() {
   return (
     <div className="technologies-container">
@@ -48,6 +48,9 @@ function App() {
           </div>
         ))}
       </div>
+    </div>
+    <div class="endbox">
+<label>Designed and Developed by {username}</label>
     </div>
     </div>
   );
